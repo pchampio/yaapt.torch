@@ -47,3 +47,17 @@ print(pitch) # (Batch, F0) torch.tensor output
 
 This repository aims to wrap up these implementations in easy-installable PyPi
 packages, which can be used directly in PyTorch based neural network training.
+
+### Citing
+
+If you find this repository useful, please cite our project:
+```bib
+@misc{yaapt_torch,
+  author = {Pierre Champion},
+  title = {The YAAPT pitch tracker in PyTorch},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/pchampio/yaapt.torch}},
+}
+```
